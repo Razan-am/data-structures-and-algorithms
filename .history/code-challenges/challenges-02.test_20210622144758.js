@@ -85,7 +85,7 @@ const forEachTwoToThe = (arr) => {
   let localArray = [];
 
   arr.forEach(number => {
-    localArray.push(2**number);
+    localArray.push(number**2);
   });
 
   return localArray;
@@ -103,7 +103,7 @@ const mapTwoToThe = (arr) => {
   let localArray = [];
 
   arr.map((number) => {
-    localArray.push(2**number);
+    localArray.push(number**2);
     })
 
   return localArray;
