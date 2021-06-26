@@ -46,7 +46,9 @@ For example, containsAnd(['panda', 'ran', 'and']) returns ['panda', 'and'].
 const containsAnd = (arr) => {
   // Solution code here...
   let strings = arr.filter((element) => {
-    return element.includes('and')
+    if(element == "and"){
+      return (element);
+    }
   });
   return strings;
 };
@@ -77,8 +79,10 @@ For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
 
 const notInFirstArray = (forbiddenValues, arr) => {
   // Solution code here...
-  let seconArr = arr.filter(number =>{
-    return !forbiddenValues.includes(number) 
+  let seconArr = forbiddenValues.filter(number =>{
+    if (number !== arr){
+      return arr;
+    }
   })
   return seconArr;
 };
