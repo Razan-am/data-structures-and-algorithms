@@ -99,7 +99,7 @@ const addValues = (arr, value) => {
   // Solution code here...
   let newARR =[];
   arr.forEach(i=>{
-    newARR.push(i.value);
+    newARR.push(value);
   })
 };
 
@@ -108,7 +108,7 @@ const addNumbers = (num, arr, times, callback) => {
   let newARR =[];
 
   arr.forEach(callback => {
-    newARR.push(callback.num.times);
+    newARR.push(callback.num);
   })
   return newARR;
 };

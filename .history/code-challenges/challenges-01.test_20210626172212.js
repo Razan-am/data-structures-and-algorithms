@@ -101,6 +101,7 @@ const addValues = (arr, value) => {
   arr.forEach(i=>{
     newARR.push(i.value);
   })
+  return newARR;
 };
 
 const addNumbers = (num, arr, times, callback) => {
@@ -108,7 +109,7 @@ const addNumbers = (num, arr, times, callback) => {
   let newARR =[];
 
   arr.forEach(callback => {
-    newARR.push(callback.num.times);
+    newARR.push(callback.addValues);
   })
   return newARR;
 };

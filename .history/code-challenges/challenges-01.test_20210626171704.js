@@ -97,9 +97,8 @@ Return the modified array.
 
 const addValues = (arr, value) => {
   // Solution code here...
-  let newARR =[];
   arr.forEach(i=>{
-    newARR.push(i.value);
+    arr.push(value);
   })
 };
 
@@ -108,7 +107,7 @@ const addNumbers = (num, arr, times, callback) => {
   let newARR =[];
 
   arr.forEach(callback => {
-    newARR.push(callback.num.times);
+    newARR.push(callback.arr +1);
   })
   return newARR;
 };
