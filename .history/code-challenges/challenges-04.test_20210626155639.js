@@ -24,11 +24,7 @@ function lower(str) {
 const updateAnimal = (arr, callback) => {
   // Solution code here...
   return arr.sort((a,b) =>{
-    if (a.toUpperCase()>b.toUpperCase()){
-      return 1;
-    }else{
-      return -1;
-    }
+    a.local
   });
 }
 
