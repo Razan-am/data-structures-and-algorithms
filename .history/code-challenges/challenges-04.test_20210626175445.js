@@ -23,8 +23,8 @@ function lower(str) {
 
 const updateAnimal = (arr, callback) => {
   // Solution code here...
-  return arr.sort((a,b) =>{
-    if (a.upper > b.upper){
+  return arr.sort(() =>{
+    if (upper > lower){
       return 1;
     }else{
       return -1;

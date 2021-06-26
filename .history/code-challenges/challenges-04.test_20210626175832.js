@@ -24,10 +24,10 @@ function lower(str) {
 const updateAnimal = (arr, callback) => {
   // Solution code here...
   return arr.sort((a,b) =>{
-    if (a.upper > b.upper){
-      return 1;
+    if (a.upper - b.upper){
+      return a.upper;
     }else{
-      return -1;
+      return b.upper;
     }
   });
 }
