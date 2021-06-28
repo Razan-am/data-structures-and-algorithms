@@ -125,7 +125,9 @@ let starWarsData = [{
 const returnNames = (arr) => {
   // Solution code here...
   return arr.reduce((accumlator,value) =>{
-    return (accumlator+value.name+'  '+',').split(',')
+    let newArr =[];
+    newArr = accumlator+value.name;
+    return newArr.splice(' ');
   },[]);
 };
 
