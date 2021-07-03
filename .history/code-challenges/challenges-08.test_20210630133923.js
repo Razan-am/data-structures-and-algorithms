@@ -125,8 +125,8 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 
 const citiesAtoJ = (arr) => {
   // Solution code here...
-  let regex = /A+j/g;
-  return arr.replace(regex);
+  let regex = /A/g;
+  return arr.test(regex);
 };
 
 /* ------------------------------------------------------------------------------------------------
