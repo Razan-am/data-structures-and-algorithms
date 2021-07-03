@@ -40,8 +40,7 @@ Write a function named removeThree that takes an index and an array. The functio
 
 const removeThree = (idx, arr) => {
   // Solution code here...
-  arr.splice(idx,3);
-  return arr;
+  return arr.slice(idx,4)
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -135,11 +134,8 @@ const gruffaloCrumble = {
 const listFoods = (recipe) => {
   let result = [];
   // Solution code here...
-  recipe.ingredients.forEach(element => {
-    let element1 = element.slice(element.indexOf(' ')+1);
-    let element2 = element1.slice(element1.indexOf(' ')+1);
-    result.push(element2)
-  });
+  result.push(recipe);
+  result.slice(2,-1);
   return result;
 };
 

@@ -136,8 +136,8 @@ const listFoods = (recipe) => {
   let result = [];
   // Solution code here...
   recipe.ingredients.forEach(element => {
-    let element1 = element.slice(element.indexOf(' ')+1);
-    let element2 = element1.slice(element1.indexOf(' ')+1);
+    let element1 = element.slice(element.indexOf('')+1);
+    let element2 = element1.slice(element1.indexOf('')+1);
     result.push(element2)
   });
   return result;
