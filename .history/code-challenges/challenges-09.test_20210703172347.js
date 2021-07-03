@@ -14,8 +14,7 @@ const maxInArray = (arr) => {
    if (value>accumulator) {
      accumulator = value
    }
-   return accumulator;
-  }, '')
+  }, arr)
 };
 
 /* ------------------------------------------------------------------------------------------------

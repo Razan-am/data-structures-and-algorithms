@@ -11,11 +11,8 @@ E.g. [4,2,7,5,9,2] -> 9
 const maxInArray = (arr) => {
   // Solution code here...
   return arr.reduce((accumulator,value)=>{
-   if (value>accumulator) {
-     accumulator = value
-   }
-   return accumulator;
-  }, '')
+    Math.max(accumulator, value)
+  }, arr)
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -46,7 +43,7 @@ Write a function named checkValues that takes in an object and a value and retur
 
 const checkValues = (obj, value) => {
   // Solution code here...
-  if (Object.values(obj).includes(value)){
+  if (value in Object.values(obj)){
     return true;
   }else{
     return false;
@@ -154,17 +151,14 @@ hasChildrenValues(characters, 'Sansa') will return false
 
 const hasChildrenValues = (arr, character) => {
   // Solution code here...
-  let result;
   arr.map(element =>{
-    if(Object.values(element).includes(character)){
-      if (element.children) {       
-        result=true;
-      }
-    else{
-       result=false;
+    if(Object.values(element).include(character)=== children){
+      return true;
+    }else{
+      return false;
     }
-  }})
-  return result;
+  })
+  // return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------

@@ -11,11 +11,8 @@ E.g. [4,2,7,5,9,2] -> 9
 const maxInArray = (arr) => {
   // Solution code here...
   return arr.reduce((accumulator,value)=>{
-   if (value>accumulator) {
-     accumulator = value
-   }
-   return accumulator;
-  }, '')
+    Math.max(accumulator, value)
+  }, arr)
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -46,7 +43,7 @@ Write a function named checkValues that takes in an object and a value and retur
 
 const checkValues = (obj, value) => {
   // Solution code here...
-  if (Object.values(obj).includes(value)){
+  if (value in obj){
     return true;
   }else{
     return false;
@@ -75,7 +72,7 @@ HR has asked you to change the data to make it easier to print so that it looks 
 const updateNumbers = (obj) => {
   // Solution code here...
   for (let data in obj){
-    return `${data}: ${obj[data]}`;
+    return `${data}:${obj[data]}`;
   }
 };
 
@@ -133,11 +130,10 @@ const characters = [
 const getHouses = (arr) => {
   let houses = Object.keys(characters);
   // Solution code here...
-  let array=[];
-  arr.map(element =>{
-    array.push (element.house)
+  houses.map(element =>{
+    return (element.house)
   })
-  return array;
+
 };
 
 /*------------------------------------------------------------------------------------------------
@@ -154,17 +150,7 @@ hasChildrenValues(characters, 'Sansa') will return false
 
 const hasChildrenValues = (arr, character) => {
   // Solution code here...
-  let result;
-  arr.map(element =>{
-    if(Object.values(element).includes(character)){
-      if (element.children) {       
-        result=true;
-      }
-    else{
-       result=false;
-    }
-  }})
-  return result;
+
 };
 
 /* ------------------------------------------------------------------------------------------------

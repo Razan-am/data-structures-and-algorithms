@@ -11,11 +11,8 @@ E.g. [4,2,7,5,9,2] -> 9
 const maxInArray = (arr) => {
   // Solution code here...
   return arr.reduce((accumulator,value)=>{
-   if (value>accumulator) {
-     accumulator = value
-   }
-   return accumulator;
-  }, '')
+    Math.max(accumulator, value)
+  }, arr)
 };
 
 /* ------------------------------------------------------------------------------------------------
