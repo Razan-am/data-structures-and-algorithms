@@ -141,10 +141,10 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 
 const reversedString = (str) => {
   // Solution code here...
-  let newArr = str.split('');
-  return newArr.reduce((accumlator,value)=>{
-    return value+accumlator
-  },'');
+  return str.reduce((accumlator,value)=>{
+    accumlator.unshift(value);
+    return accumlator;
+  },[]);
 };
 
 /* ------------------------------------------------------------------------------------------------

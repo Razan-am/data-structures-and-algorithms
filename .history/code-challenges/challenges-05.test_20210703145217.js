@@ -143,7 +143,7 @@ const reversedString = (str) => {
   // Solution code here...
   let newArr = str.split('');
   return newArr.reduce((accumlator,value)=>{
-    return value+accumlator
+    return accumlator+value
   },'');
 };
 
