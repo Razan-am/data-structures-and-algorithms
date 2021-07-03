@@ -124,13 +124,11 @@ let starWarsData = [{
 
 const returnNames = (arr) => {
   // Solution code here...
+  let arr=starWarsData.reduce(arr,starWarsData){
+    // arr.push(starWarsData.name);
 
-  let newArr =arr.reduce((accumlator,value)=>{
-    accumlator.push(value.name);
-    return accumlator;
-  },[])
-  return newArr;
-
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -144,12 +142,10 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 const reversedString = (str) => {
   // Solution code here...
 
-  let newArr = str.split('');
-  return newArr.reduce((accumlator,value)=>{
-    return value+accumlator
-  },'');
-
+  return str.split('');
+  
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
