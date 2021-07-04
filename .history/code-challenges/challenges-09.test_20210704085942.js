@@ -156,14 +156,14 @@ const hasChildrenValues = (arr, character) => {
   // Solution code here...
   let result;
   arr.map(element =>{
- if (Object.values(element).includes(character)){
+ 
       if (element.children) {       
         result=true;
       }
     else{
        result=false;
     }
-  }})
+  })
   return result;
 };
 
