@@ -115,11 +115,6 @@ Write a function named salesData that uses forEach to iterate over the hourlySal
 
 const salesData = (hours, data) => {
   // Solution code here...
-  let newArr = [];
-  hours.forEach((element,idx) => {
-    newArr.push({ sales: `${data[idx]} cookies`, time: `${element}` })
-  });
-  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
