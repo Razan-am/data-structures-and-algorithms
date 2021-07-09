@@ -55,9 +55,9 @@ For example, (123) 456-7890 returns 1234567890
 
 const standardizePhoneNumbers = (arr) => {
   // Solution code here...
-  let newArr = []
+  let newArr =[]
   arr.forEach(element => {
-    newArr.push (element.replace(/[\s\-()]/g,''))
+    return element.join('').replace(/(\d{3})(\d{3})(\d{4})/,'($1) $2-$3'))
   });
   return newArr
 };
