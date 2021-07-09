@@ -84,7 +84,7 @@ Write a function named allHappy that takes in an array of strings and returns a 
 
 const allHappy = (arr) => {
   // Solution code here...
-  if (findHappiness(arr).length === arr.length) {
+  if (findHappinessincludes(':)')) {
     return true
   }else{
     return false

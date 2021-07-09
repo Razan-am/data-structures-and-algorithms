@@ -41,8 +41,7 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['this
 
 const findHappiness = (arr) => {
   // Solution code here...
-  let newarr = arr.filter( item => item.includes(':)'))
-  return newarr
+  return arr.filter( item => item.include(':)'))
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -84,7 +83,7 @@ Write a function named allHappy that takes in an array of strings and returns a 
 
 const allHappy = (arr) => {
   // Solution code here...
-  if (findHappiness(arr).length === arr.length) {
+  if (arr.includes(':)')) {
     return true
   }else{
     return false

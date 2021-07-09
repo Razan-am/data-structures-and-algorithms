@@ -8,10 +8,10 @@ Write a function named longestString that takes in an array of strings and retur
 
 const longestString = (arr) => {
 // Solution code here...
-    let maxlength = ''
+    let maxlength = 0
     arr.map(elemeny =>{
-      if (elemeny.length > maxlength.length ) {
-        maxlength=elemeny
+      if (element.length > maxlength.length ) {
+        maxlength=element
       }
     })
     return arr.indexOf(maxlength)
@@ -41,7 +41,7 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['this
 
 const findHappiness = (arr) => {
   // Solution code here...
-  let newarr = arr.filter( item => item.includes(':)'))
+  let newarr = arr.filter( item => item.include(':)'))
   return newarr
 };
 
@@ -84,7 +84,7 @@ Write a function named allHappy that takes in an array of strings and returns a 
 
 const allHappy = (arr) => {
   // Solution code here...
-  if (findHappiness(arr).length === arr.length) {
+  if (arr.includes(':)')) {
     return true
   }else{
     return false
