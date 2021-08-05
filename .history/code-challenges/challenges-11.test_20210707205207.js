@@ -38,15 +38,7 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 
 const count = (target, input) => {
   // Solution code here...
-  let total = 0;
-  input.map(value =>{
-    value.map(index =>{
-      if (index === target){
-        total ++;
-      }
-    })
-  })
-  return total;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -84,13 +76,16 @@ For example, [ [0,2,5,4], [2,4,10], [] ] should return [ [1, 32], [1024], [] ].
 
 const divisibleByFiveTwoToThePower = (input) => {
   // Solution code here...
-  return input.map(value =>
-    value.filter(index => (
-      typeof index === 'number' && index % 5 ===0
-    )).map(j =>
-      Math.pow(2,j)
-    )
-  )
+  return input.map(value =>{
+    value.filter(index => {
+      (typeof index === Number && index %5===0)
+        .map(j =>{
+          Math.pow(2,j)
+        })
+    })
+  })
+
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -157,11 +152,6 @@ let starWarsData = [{
 
 let findMaleAndFemale = (data) => {
   // Solution code here...
-  return data.filter(value =>
-    (value.gender === 'male' || value.gender === 'female')
-  ).map(index =>
-    index.name
-  ).join (' and ');
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -172,13 +162,6 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 
 let findShortest = (data) => {
   // Solution code here...
-  let chara = data[0]
-  data.filter(value =>{
-    if(parseInt(value.height)< parseInt(chara.height)){
-      chara=value
-    }
-  })
-  return chara.name
 };
 
 /* ------------------------------------------------------------------------------------------------
