@@ -12,9 +12,7 @@ Write a function named screenForNames that takes in an array of strings and uses
 
 const screenForNames = (arr) => {
   // Solution code here...
-
   return arr.filter(regex =>/^(Mr||Mrs||Ms||Dr).\s[A-Za-z]/.test(regex))
-
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -27,10 +25,8 @@ For example, ['apple', 'banana', 'MacGyver'] returns ['Apple', 'Banana', 'MacGyv
 
 const toTitleCase = (arr) => {
   // Solution code here...
-
   let newArr = arr.map (item => item.charAt(0).toUpperCase() + item.substr(1))
   return newArr
-
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -106,7 +102,6 @@ let starWarsData = [{
 
 let biggerThanLuke = (arr) => {
   // Solution code here...
-
   let newArr = arr.reduce((accumelator,value)=>{
     if (parseInt(value.mass) > parseInt(arr[0].mass)) {
       if(accumelator){
@@ -115,7 +110,6 @@ let biggerThanLuke = (arr) => {
     }return accumelator
   },'');
   return newArr
-
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -173,10 +167,8 @@ https:/missingslash.org returns false because the URL is malformed
 ------------------------------------------------------------------------------------------------ */
 const isSecure = (url) => {
   // Solution code here...
-
   let regex=/(https:\/\/)/;
   return regex.test(url)
-
 };
 
 /* ------------------------------------------------------------------------------------------------

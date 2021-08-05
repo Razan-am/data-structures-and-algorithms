@@ -12,9 +12,7 @@ Write a function named screenForNames that takes in an array of strings and uses
 
 const screenForNames = (arr) => {
   // Solution code here...
-
   return arr.filter(regex =>/^(Mr||Mrs||Ms||Dr).\s[A-Za-z]/.test(regex))
-
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -27,10 +25,8 @@ For example, ['apple', 'banana', 'MacGyver'] returns ['Apple', 'Banana', 'MacGyv
 
 const toTitleCase = (arr) => {
   // Solution code here...
-
   let newArr = arr.map (item => item.charAt(0).toUpperCase() + item.substr(1))
   return newArr
-
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -106,7 +102,6 @@ let starWarsData = [{
 
 let biggerThanLuke = (arr) => {
   // Solution code here...
-
   let newArr = arr.reduce((accumelator,value)=>{
     if (parseInt(value.mass) > parseInt(arr[0].mass)) {
       if(accumelator){
@@ -115,7 +110,6 @@ let biggerThanLuke = (arr) => {
     }return accumelator
   },'');
   return newArr
-
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -134,29 +128,16 @@ This data could be sorted by name or price.
 
 const sortBy = (property, arr) => {
   // Solution code here...
-  if (property === 'name') {
-    arr.map(element =>{
-      arr.sort((a,b)=>{
-        if (a.name > b.name) {
-          return 1
-        }else{
-          return -1
-        }
-      })
+  arr.map(element =>{
+    arr.sort((a,b)=>{
+      if (a.price > b.price) {
+        return 1
+      }else{
+        return -1
+      }
     })
-    return arr
-  }else if (property === 'price') {
-    arr.map(item =>{
-      arr.sort((a,b)=>{
-        if (a.price > b.price) {
-          return 1
-        }else{
-          return -1
-        }
-      })
-    })
-    return arr
-  }
+  })
+  return arr
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -173,10 +154,8 @@ https:/missingslash.org returns false because the URL is malformed
 ------------------------------------------------------------------------------------------------ */
 const isSecure = (url) => {
   // Solution code here...
-
   let regex=/(https:\/\/)/;
   return regex.test(url)
-
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -204,27 +183,27 @@ const detectTicTacToeWin = (board) => {
   board.forEach(item =>{
     item.forEach(element =>{
       boardList.push(element)
-    })
-  });
-  for (let index = 0; index < 9; index + 3) {
-    if (boardList[index] == boardList[index + 2] && boardList[index] == boardList[index + 1] && boardList[index] !== '' ) {
-      return true;
-    }else{
-      for (let index = 0; index < 3; index++) {
-        if (boardList[index] == boardList[index + 6] && boardList[index] == boardList[index + 3] && boardList[index] !== '' ) {
-          return true;
-        }else{
-          for (let index = 0; index < 3; index + 2) {
-            if (boardList[index] == boardList[8 - index] && boardList[index] == boardList[4] && boardList[index] !== '' ) {
-              return true;
-            }else{
-              return false;
+    });
+    for (let index = 0; index < 9; index++) {
+      if (boardList[index] == boardList[index+2] && boardList[index] == boardList[index+1] && boardList[index] !== '' ) {
+        return true;
+      }else{
+        for (let index = 0; index < 3; index++) {
+          if (boardList[index] == boardList[index+6] && boardList[index] == boardList[index+3] && boardList[index] !== '' ) {
+            return true;
+          }else{
+            for (let index = 0; index < 3; index++) {
+              if (boardList[index] == boardList[8-index] && boardList[index] == boardList[4] && boardList[index] !== '' ) {
+                return true;
+              }else{
+                return false;
+              }
             }
           }
         }
       }
     }
-  }
+  })
 };
 
 /* ------------------------------------------------------------------------------------------------
