@@ -128,29 +128,16 @@ This data could be sorted by name or price.
 
 const sortBy = (property, arr) => {
   // Solution code here...
-  if (property === 'name') {
-    arr.map(element =>{
-      arr.sort((a,b)=>{
-        if (a.name > b.name) {
-          return 1
-        }else{
-          return -1
-        }
-      })
+  arr.map(element =>{
+    arr.sort((a,b)=>{
+      if (a.price > b.price) {
+        return 1
+      }else{
+        return -1
+      }
     })
-    return arr
-  }else if (property === 'price') {
-    arr.map(item =>{
-      arr.sort((a,b)=>{
-        if (a.price > b.price) {
-          return 1
-        }else{
-          return -1
-        }
-      })
-    })
-    return arr
-  }
+  })
+  return arr
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -195,9 +182,9 @@ const detectTicTacToeWin = (board) => {
   let boardList = [];
   board.forEach(item =>{
     item.forEach(element =>{
-      boardList.push(element)
-    })
-  });
+      boardList.push(element);
+    });
+  })
   for (let index = 0; index < 9; index + 3) {
     if (boardList[index] == boardList[index + 2] && boardList[index] == boardList[index + 1] && boardList[index] !== '' ) {
       return true;

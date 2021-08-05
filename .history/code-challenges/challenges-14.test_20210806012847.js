@@ -128,7 +128,7 @@ This data could be sorted by name or price.
 
 const sortBy = (property, arr) => {
   // Solution code here...
-  if (property === 'name') {
+  if (propert === 'name') {
     arr.map(element =>{
       arr.sort((a,b)=>{
         if (a.name > b.name) {
