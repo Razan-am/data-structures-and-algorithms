@@ -15,4 +15,8 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
 
 - 401 Code Challenge 1: https://github.com/Razan-am/data-structures-and-algorithms/blob/array-insert-shift/401-challenge/challenge-1/README.md
-- 
+
+
+- 401 Code Challenge 2: https://github.com/Razan-am/data-structures-and-algorithms/blob/array-insert-shift/401-challenge/challenge-2/README.md
+
+
