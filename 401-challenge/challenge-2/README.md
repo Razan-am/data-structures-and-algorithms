@@ -7,7 +7,7 @@
 ### Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![image](/images/Insert-Shift-Array.png)
+![image](/images/Insert-Shift-Arrayy.png)
 
 ### Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
