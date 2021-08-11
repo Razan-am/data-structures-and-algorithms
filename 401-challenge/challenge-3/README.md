@@ -1,4 +1,4 @@
-# Code challenge 2:
+# Code challenge 3:
 
 ## Array-binary-search
 <!-- Description of the challenge -->
