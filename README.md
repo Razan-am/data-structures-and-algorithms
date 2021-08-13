@@ -22,3 +22,5 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 - 401 Code Challenge 3: https://github.com/Razan-am/data-structures-and-algorithms/blob/array-binary-search/401-challenge/challenge-3/README.md
 
+- 401 Code challenge 4: https://github.com/Razan-am/data-structures-and-algorithms/blob/main/401-challenge/challenge-4/README.md
+
