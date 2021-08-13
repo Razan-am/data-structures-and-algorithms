@@ -1,5 +1,6 @@
 'use strict';
 
+
 let array = [1,2,3,4];
 
 function reverseArray (array) {
@@ -9,5 +10,6 @@ function reverseArray (array) {
        }
        return newArr;
 }
+
 
 reverseArray(array);

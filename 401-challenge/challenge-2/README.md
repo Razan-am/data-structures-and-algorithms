@@ -1,15 +1,15 @@
-# Code challenge 1:
+# Code challenge 2:
 
-# Reverse an Array
+## Insert-Shift-Array
 <!-- Description of the challenge -->
-- Write a function that take an array and to process the array starting with the last element
+- Write a function which takes in an array and a value to be added to the array at the middle index
 
-## Whiteboard Process
+### Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![image](../images/array-reverse.png)
+![image](/images/Insert-Shift-Arrayy.png)
 
-## Approach & Efficiency
+### Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
 - I took the output input approach, it will show the result how it should be 
 - Big O 
