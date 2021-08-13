@@ -1,6 +1,6 @@
-# Code challenge 3:
+# Code challenge 4:
 
-## Array-binary-search
+## Fibonacci
 <!-- Description of the challenge -->
 - To write a function to accepts an integer, and returns the nth number in the Fibonacci sequence.
 
