@@ -7,7 +7,7 @@
 ### Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![image](/images/array-binary-search.png)
+![image](/images/array-binary-search01.png)
 
 ### Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
