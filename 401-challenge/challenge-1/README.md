@@ -9,6 +9,7 @@
 
 ![image](/images/array-reverse-01.png)
 
+
 ### Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
 - I took the output input approach, it will show the result how it should be 
