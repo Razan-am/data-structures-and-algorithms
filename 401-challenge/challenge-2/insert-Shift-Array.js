@@ -14,7 +14,5 @@ function insertShiftArray (array,x) {
     }
     newArray[middlePoint]=x;
     return newArray;
-}
+  
 insertShiftArray (array,0)
-
-
