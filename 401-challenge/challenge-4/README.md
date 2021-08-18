@@ -1,20 +1,18 @@
-# Code challenge 3:
+# Code challenge 4:
 
-## Array-binary-search
+## Fibonacci
 <!-- Description of the challenge -->
-- Write a function which takes in 2 parameters: a `sorted array` and the `search key`, return the `index of the array’s element` that is equal to the value of the search key, or `-1` if the element is not in the array.
+- To write a function to accepts an integer, and returns the nth number in the Fibonacci sequence.
 
 ### Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![image](/images/array-binary-search01.png)
+![image](/images/fibonacci.png)
 
 ### Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
 - I took the output input approach, it will show the result how it should be 
 
 - Big O 
-   - Time <--- O(1)
-
+   - Time <--- O(2)
    - Space <----- O(1)
-
