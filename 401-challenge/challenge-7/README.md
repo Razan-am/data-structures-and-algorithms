@@ -1,4 +1,4 @@
-# Code challenge 6:
+# Code challenge 7:
 
 ## linked-list-insertions
 <!-- Short summary or background information -->
