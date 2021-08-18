@@ -1,4 +1,4 @@
-# Code challenge 7:
+# Code challenge 8:
 
 ##  linked-list-zip
 <!-- Short summary or background information -->
