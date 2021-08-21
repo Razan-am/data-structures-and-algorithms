@@ -4,17 +4,29 @@ const LinkedList= require('../ll-kth');
 
 describe('linked list module',()=>{
 
-    it('Where k is greater than the length of the linked list',()=>{
+    it('constructor()',()=>{
         let newList = new LinkedList();
-        newList.insert(1);
-        newList.insert(2);
-        newList.insert(3);
-        newList.insert(4);
-        newList.insert(5);
-        newList.kthFromEnd(11);
-        expect(newList.head.value).toEqual(5);
-        expect(newList.head.next.next.value).toEqual(11);
+        expect(newList.head).toEqual(null);
     })
+
+    it('append',()=>{
+        let newList = new LinkedList();
+        let initialValue = 'first value';
+        newList.append(initialValue);
+        expect(newList.head.value).toEqual(initialValue);
+    })
+
+    // it('Where k is greater than the length of the linked list',()=>{
+    //     let newList = new LinkedList();
+    //     newList.insert(1);
+    //     newList.insert(2);
+    //     newList.insert(3);
+    //     newList.insert(4);
+    //     newList.insert(5);
+    //     newList.kthFromEnd(11);
+    //     expect(newList.head.value).toEqual(5);
+    //     expect(newList.head.next.next.value).toEqual(11);
+    // })
 
     // it('Where k and the length of the list are the same',()=>{
     //     let newList = new LinkedList();

@@ -42,7 +42,7 @@ class LinkedList{
             return null
         }
 
-        while(newnode !== null){
+        while(newnode){
             let saveNode = newnode.next;
             newnode.next = previous;
             previous = newnode;
