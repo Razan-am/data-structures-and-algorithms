@@ -40,3 +40,5 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 - 401 Code challenge 9: https://github.com/Razan-am/data-structures-and-algorithms/blob/main/401-challenge/challenge-9/README.md
 
+
+- 401 Code challenge 10: https://github.com/Razan-am/data-structures-and-algorithms/blob/main/401-challenge/challenge-10/README.md
