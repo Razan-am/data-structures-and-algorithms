@@ -21,7 +21,7 @@
 ---------------------------
 
 - Pull request
-[PR]()
+[PR](https://github.com/Razan-am/data-structures-and-algorithms/pull/34)
 
 - Action:
-[action]()
+[action](https://github.com/Razan-am/data-structures-and-algorithms/actions/runs/1167517297)
