@@ -1,4 +1,5 @@
 TN:
+
 SF:401-challenge/challenge-11/node.js
 FN:4,(anonymous_0)
 FNF:1
@@ -19,11 +20,14 @@ FN:11,(anonymous_1)
 FN:15,(anonymous_2)
 FNF:3
 FNH:3
+
 FNDA:2,(anonymous_0)
-FNDA:6,(anonymous_1)
-FNDA:1,(anonymous_2)
-DA:3,1
+FNDA:10,(anonymous_1)
+FNDA:2,(anonymous_2)
+FNDA:13,(anonymous_3)
+DA:6,2
 DA:7,2
+
 DA:12,6
 DA:16,1
 DA:17,0
@@ -36,6 +40,7 @@ BRDA:16,0,0,0
 BRDA:16,0,1,1
 BRF:2
 BRH:1
+
 end_of_record
 TN:
 SF:401-challenge/challenge-11/stack.js
