@@ -1,31 +1,24 @@
 'use strict';
 
-const Node = require('./node');
+const Stack = require('./stack');
 
 class PseudoQueue{
     constructor(){
-        this.s1=[],
-        this.s2=[]
+        this.s1=new Stack(),
+        this.s2=new Stack()
     }
 
     enqueue(value){
-        while(this.s1.length != 0){
-            this.s2.push(this.s1.pop());
-        }
         this.s1.push(value);
-
-        while (this.s2.length != 0) {
-            this.s1.push(this.s2.pop())
-        }
     }
 
     dequeue(){
-        if(this.s1.length == 0){
-            console.log('It is empty');
+        if(this.s2.length == 0){
+            while (this.s1.length != 0) {
+                this.s2.push(this.s1.pop())
+            }
         }
-        let x = this.s1[this.s1.length - 1];
-        this.s1.pop();
-        return x;
+        return this.s2.pop()
     }
 }
 
