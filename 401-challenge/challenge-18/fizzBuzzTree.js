@@ -10,21 +10,17 @@ class FizzBuzz{
 }
 function FizzBuzzTree(kTree){
 
-    for(let i = 1; i <= kTree; i++){
-        result = [];
-        if(i % 3 === 0 && i % 5 === 0){
-          result.push('FizzBuzz')
-        }else if(i % 3 === 0){
-            result.push('Fizz');
-        }else if(i % 5 === 0){
-            result.push('Buzz');
-        }else{
-            result.push(i);
-        }
-        return result;
+    let result = [];
+    if(kTree % 3 === 0 && kTree % 5 === 0){
+        result.push('FizzBuzz')
+    }else if(kTree % 3 === 0){
+        result.push('Fizz');
+    }else if(kTree % 5 === 0){
+        result.push('Buzz');
+    }else{
+        result.push(kTree.toString());
     }
-    this.FizzBuzzTree(kTree.left);
-    this.FizzBuzzTree(kTree.right)
+    return result;
 
 }
 
