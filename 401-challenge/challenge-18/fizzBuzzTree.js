@@ -1,28 +1,41 @@
 'use strict';
 
+const BinaryTree = require('./binaryTree');
 const Node = require('./Node');
 
-class FizzBuzz{
-    constructor(root= null){
-        this.root = root;
-    }
-
-}
 function FizzBuzzTree(kTree){
 
+    if (!kTree.root)
+    return 'tree is empty';
+    
     let result = [];
-    if(kTree % 3 === 0 && kTree % 5 === 0){
-        result.push('FizzBuzz')
-    }else if(kTree % 3 === 0){
-        result.push('Fizz');
-    }else if(kTree % 5 === 0){
-        result.push('Buzz');
-    }else{
-        result.push(kTree.toString());
-    }
-    return result;
 
+    const traverse = (node)=>{
+
+        if(node.value %3 == 0){
+            result.push(node.value = 'Fizz');
+
+        }else if (node.value % 5 == 0 ){
+            result.push(node.value = 'Buzz');
+
+
+        }else if (node.value %3 == 0 && node.value % 5 == 0 ){
+            result.push(node.value = 'FizzBuzz');
+
+        }else{
+            result.push(`${node.value}`) 
+        }
+        
+        if (node.left) 
+        traverse(node.left)
+
+        if (node.right) 
+        traverse(node.right)
+      
+    }
+    traverse(kTree.root);
+    return result;
 }
 
 
-module.exports = {FizzBuzz,FizzBuzzTree}
+module.exports = FizzBuzzTree;
