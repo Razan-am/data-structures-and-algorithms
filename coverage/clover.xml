@@ -1,41 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1630238084373" clover="3.2.0">
-  <project timestamp="1630238084373" name="All files">
-    <metrics statements="30" coveredstatements="19" conditionals="17" coveredconditionals="9" methods="4" coveredmethods="3" elements="51" coveredelements="31" complexity="0" loc="30" ncloc="30" packages="1" files="2" classes="2"/>
+<coverage generated="1630510658246" clover="3.2.0">
+  <project timestamp="1630510658246" name="All files">
+    <metrics statements="19" coveredstatements="18" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4" elements="34" coveredelements="32" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
     <file name="maxTree.js" path="/home/razan-am/codefellows/data-structures-and-algorithms/401-challenge/challenge-16/maxTree.js">
-      <metrics statements="26" coveredstatements="15" conditionals="15" coveredconditionals="7" methods="3" coveredmethods="2"/>
+      <metrics statements="15" coveredstatements="14" conditionals="9" coveredconditionals="8" methods="3" coveredmethods="3"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="13" count="3" type="stmt"/>
-      <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="12" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="13" count="0" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
       <line num="17" count="1" type="stmt"/>
-      <line num="19" count="2" type="stmt"/>
-      <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="25" count="0" type="stmt"/>
-      <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="18" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="4" type="stmt"/>
+      <line num="21" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="4" type="stmt"/>
+      <line num="24" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="25" count="2" type="stmt"/>
       <line num="28" count="1" type="stmt"/>
       <line num="29" count="1" type="stmt"/>
-      <line num="31" count="0" type="stmt"/>
-      <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="40" count="0" type="stmt"/>
-      <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="47" count="0" type="stmt"/>
-      <line num="48" count="0" type="stmt"/>
-      <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="52" count="0" type="stmt"/>
-      <line num="53" count="0" type="stmt"/>
-      <line num="56" count="0" type="stmt"/>
-      <line num="60" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
     </file>
     <file name="node.js" path="/home/razan-am/codefellows/data-structures-and-algorithms/401-challenge/challenge-16/node.js">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="5" count="13" type="stmt"/>
-      <line num="6" count="13" type="stmt"/>
-      <line num="7" count="13" type="stmt"/>
+      <line num="5" count="10" type="stmt"/>
+      <line num="6" count="10" type="stmt"/>
+      <line num="7" count="10" type="stmt"/>
       <line num="11" count="2" type="stmt"/>
     </file>
   </project>
