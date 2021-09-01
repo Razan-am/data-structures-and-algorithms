@@ -35,28 +35,14 @@ describe('find the max of binary tree',()=>{
         expect(newTree.root).toBeNull();
         expect(tree.root.value).toEqual(1);
     });
-
-    it('add',()=>{
-        const newTree = new BinaryTree();
-        newTree.add(10);
-        newTree.add(2);
-        newTree.add(17);
-        expect(newTree.root.value).toEqual(10)
-    })
-
-
-    // it('find the max',()=>{
-    //     const newTree = new BinaryTree();
-    //     newTree.add(10);
-    //     newTree.add(2);
-    //     newTree.add(17);
-    //     expect(newTree.maxValue(newTree)).toEqual(17)
-    // })
-
     
     it('when the root is null',()=>{
-        let max = 9;
         const newTree = new BinaryTree();
         expect(newTree.root).toEqual(null);
+    })
+
+    it('find max',()=>{
+        const expectedValue = 9;
+        expect(tree.maxValue()).toEqual(expectedValue)
     })
 })
