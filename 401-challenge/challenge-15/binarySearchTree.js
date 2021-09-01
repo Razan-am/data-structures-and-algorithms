@@ -9,37 +9,32 @@ class BSTree{
 
     add(value){
 
-        let newNode = new Node(value);
-
-        if(this.root === null){
-            this.root = newNode;
-        }else{
-            this.addNode(this.root,newNode)
-        }
-    }
-
-    addNode(node,newNode){
-        node = 0;
-        if(newNode.value < node.value){
-            if(node.left === null){
-
-                node.left = newNode;
+        if(this.left){
+            if(value < this.root){
+                this.left.add(value);
             }else{
-                this.addNode(node.left, newNode);
+                this.left = new Node(value);
             }
         }else{
-            if(node.right === null){
-                this.addNode(node.right, newNode);
+            if(value > this.root){
+                this.right.add(value);
+            }else{
+                this.right = new Node(value);
             }
         }
     }
 
-    contains(node){
+    contains(value){
 
-        if(node === null){
-            return true;
+        if(this.root === value){
+            return this;
+        }
+        if(value < this.root && this.left){
+            return this.left.contains(value);
+        }else if(value > this.root && this.right){
+            return this.right.contains(value);
         }else{
-            return false;
+            return null;
         }
     }
 }
