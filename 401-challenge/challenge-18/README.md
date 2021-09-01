@@ -7,12 +7,12 @@
 ### Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![image](/images/breadth.png)
+![image](/images/fizzBuzz.png)
 
 ### Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
 - test result:
-![image](/images/breadth-test.PNG)
+![image](/images/fizzbuzz-test.PNG)
 
 - Big O 
    - Time <--- O(1)
