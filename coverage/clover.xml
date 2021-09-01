@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <coverage generated="1630510658246" clover="3.2.0">
   <project timestamp="1630510658246" name="All files">
     <metrics statements="19" coveredstatements="18" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4" elements="34" coveredelements="32" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
@@ -16,16 +17,56 @@
       <line num="22" count="4" type="stmt"/>
       <line num="24" count="9" type="cond" truecount="2" falsecount="0"/>
       <line num="25" count="2" type="stmt"/>
-      <line num="28" count="1" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
+
+<coverage generated="1630509405713" clover="3.2.0">
+  <project timestamp="1630509405713" name="All files">
+    <metrics statements="44" coveredstatements="30" conditionals="32" coveredconditionals="16" methods="11" coveredmethods="9" elements="87" coveredelements="55" complexity="0" loc="44" ncloc="44" packages="1" files="3" classes="3"/>
+    <file name="binarySearchTree.js" path="/home/razan-am/codefellows/data-structures-and-algorithms/401-challenge/challenge-15/binarySearchTree.js">
+      <metrics statements="17" coveredstatements="3" conditionals="17" coveredconditionals="1" methods="3" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="32" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="34" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
     </file>
-    <file name="node.js" path="/home/razan-am/codefellows/data-structures-and-algorithms/401-challenge/challenge-16/node.js">
+    <file name="binaryTree.js" path="/home/razan-am/codefellows/data-structures-and-algorithms/401-challenge/challenge-15/binaryTree.js">
+      <metrics statements="23" coveredstatements="23" conditionals="13" coveredconditionals="13" methods="7" coveredmethods="7"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="9" type="stmt"/>
+      <line num="13" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+
+      <line num="28" count="1" type="stmt"/>
+
+      <line num="29" count="1" type="stmt"/>
+
+      <line num="32" count="1" type="stmt"/>
+
+    </file>
+    <file name="node.js" path="/home/razan-am/codefellows/data-structures-and-algorithms/401-challenge/challenge-15/node.js">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="5" count="10" type="stmt"/>
       <line num="6" count="10" type="stmt"/>
       <line num="7" count="10" type="stmt"/>
       <line num="11" count="2" type="stmt"/>
+
     </file>
   </project>
 </coverage>
