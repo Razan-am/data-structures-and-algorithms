@@ -1,6 +1,6 @@
 # Code challenge 27:
 
-## Merg Sort
+## Merge Sort
 <!-- Description of the challenge -->
 - To Write and implement a merg sort method to sort an array by inspecting the elements from left to right and placing larger elements to the right of the smaller elements.
 
@@ -22,7 +22,7 @@
 ---------------------------
 
 - Pull request
-[PR](https://github.com/Razan-am/data-structures-and-algorithms/pull/40)
+[PR](https://github.com/Razan-am/data-structures-and-algorithms/pull/48)
 
 - Action:
-[action](https://github.com/Razan-am/data-structures-and-algorithms/runs/3486645228?check_suite_focus=true)
+[action](https://github.com/Razan-am/data-structures-and-algorithms/runs/3609006729?check_suite_focus=true)
