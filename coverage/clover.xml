@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1631701496683" clover="3.2.0">
-  <project timestamp="1631701496683" name="All files">
-    <metrics statements="33" coveredstatements="33" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2" elements="45" coveredelements="45" complexity="0" loc="33" ncloc="33" packages="1" files="1" classes="1"/>
-    <file name="mergSort.js" path="/home/razan-am/codefellows/data-structures-and-algorithms/401-challenge/challenge-27/mergSort.js">
-      <metrics statements="33" coveredstatements="33" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="7" count="54" type="stmt"/>
-      <line num="8" count="54" type="stmt"/>
-      <line num="9" count="54" type="stmt"/>
-      <line num="11" count="54" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="229" type="cond" truecount="2" falsecount="0"/>
-      <line num="13" count="112" type="stmt"/>
-      <line num="14" count="112" type="stmt"/>
-      <line num="16" count="117" type="stmt"/>
-      <line num="17" count="117" type="stmt"/>
-      <line num="19" count="229" type="stmt"/>
-      <line num="21" count="54" type="cond" truecount="2" falsecount="0"/>
-      <line num="22" count="31" type="stmt"/>
-      <line num="23" count="31" type="stmt"/>
-      <line num="24" count="31" type="stmt"/>
-      <line num="26" count="23" type="stmt"/>
-      <line num="27" count="23" type="stmt"/>
-      <line num="28" count="23" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
-      <line num="34" count="111" type="cond" truecount="2" falsecount="0"/>
-      <line num="35" count="1" type="stmt"/>
-      <line num="38" count="110" type="stmt"/>
-      <line num="39" count="110" type="stmt"/>
-      <line num="41" count="110" type="cond" truecount="2" falsecount="0"/>
-      <line num="42" count="54" type="stmt"/>
-      <line num="43" count="54" type="stmt"/>
-      <line num="45" count="54" type="stmt"/>
-      <line num="46" count="54" type="stmt"/>
-      <line num="47" count="54" type="stmt"/>
-      <line num="50" count="110" type="stmt"/>
+<coverage generated="1631898889556" clover="3.2.0">
+  <project timestamp="1631898889556" name="All files">
+    <metrics statements="29" coveredstatements="24" conditionals="9" coveredconditionals="7" methods="9" coveredmethods="8" elements="47" coveredelements="39" complexity="0" loc="29" ncloc="29" packages="1" files="1" classes="1"/>
+    <file name="hashTable.js" path="/home/razan-am/codefellows/data-structures-and-algorithms/401-challenge/challenge-30/hashTable.js">
+      <metrics statements="29" coveredstatements="24" conditionals="9" coveredconditionals="7" methods="9" coveredmethods="8"/>
+      <line num="5" count="7" type="stmt"/>
+      <line num="6" count="7" type="stmt"/>
+      <line num="12" count="6" type="stmt"/>
+      <line num="15" count="6" type="stmt"/>
+      <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="30" count="6" type="stmt"/>
+      <line num="31" count="6" type="stmt"/>
+      <line num="34" count="10" type="stmt"/>
+      <line num="35" count="39" type="stmt"/>
+      <line num="40" count="5" type="stmt"/>
+      <line num="41" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="42" count="4" type="stmt"/>
+      <line num="44" count="5" type="stmt"/>
+      <line num="45" count="5" type="stmt"/>
+      <line num="49" count="3" type="stmt"/>
+      <line num="50" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="51" count="2" type="stmt"/>
       <line num="53" count="1" type="stmt"/>
-      <line num="55" count="1" type="stmt"/>
+      <line num="57" count="0" type="stmt"/>
+      <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="59" count="0" type="stmt"/>
+      <line num="61" count="0" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
