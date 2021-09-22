@@ -16,7 +16,3 @@
    - Time <--- O(1)
    - Space <----- O(1)
 
----------------------------
-
-- Pull request
-[PR](https://github.com/Razan-am/data-structures-and-algorithms/pull/40)
