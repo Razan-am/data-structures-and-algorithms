@@ -1,6 +1,6 @@
 # Code challenge 34:
 
-## Sum-Odd-Number-BT
+## Unique-Characters
 <!-- Description of the challenge -->
 - - To write a function that will determine if the given string is full of unique characters.
 
