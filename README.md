@@ -98,6 +98,10 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 - 401 Code challenge 35: https://github.com/Razan-am/data-structures-and-algorithms/blob/main/401-challenge/challenge-35/README.md
 
 
+- 401 Code challenge 36: https://github.com/Razan-am/data-structures-and-algorithms/blob/main/401-challenge/challenge-36/README.md
+
+
+
 
 
 
